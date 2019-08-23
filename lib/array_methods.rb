@@ -28,7 +28,9 @@ def find_min_value(array)
   min = array[0]
   array.length.times do |index|
     ele = array[index]
+    if min > ele
+      min = ele
   end
-end
+  end
 
 end
