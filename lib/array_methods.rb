@@ -4,7 +4,7 @@ def find_element_index(array, value_to_find)
     ele = array[index]
     if (ele == value_to_find)
       return index
-    else
+    elsif (!array.include?(value_to_find))
       return nil
     end
   end
