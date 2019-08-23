@@ -30,7 +30,7 @@ def find_min_value(array)
     ele = array[index]
     if min > ele
       min = ele
+    end
   end
-  end
-
+  min
 end
